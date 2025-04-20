@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background: url(../imgs/Background-universo.jpeg) repeat-y;
+    height: 350vh;
+    color: #fff;
+    
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 18px;
+    width: 100%;
+}
+
+.texto-principal h1 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.texto-principal p {
+    font-size: 2rem;
+}
+
+.texto-principal .palavras-especiais {
+    color: #33e530;
+}
+
+.you-for-me {
+    width: 100vw;
+    height: 380px;
+}
+
+.you-for-me h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.you-for-me .definicao-de-princesa {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    gap: 10px;
+}
+
+.you-for-me .definicao-de-princesa p {
+    font-size: 1.9rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+.princesinha {
+    color: #6775f0;
+    font-weight: 600;
+}
+
+.bonus {
+    margin: 10px 10px;
+}
+
+.bonus h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bonus .parte-bonus {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bonus .parte-bonus .pictures {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 416px;
+}
+
+.bonus .parte-bonus .pictures .foto-do-dadu {
+    max-width: 250px;
+    opacity: 0;
+    position: absolute;
+}
+
+.bonus .parte-bonus .pictures .foto-do-dadu.selecionada {
+    opacity: 1;
+    z-index: 1;
+}
+
+.imagem {
+    width: 250px;
+}
+
+.bonus .parte-bonus .btn-seta {
+    height: 60px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.bonus .parte-bonus .btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+}
+
+.bonus .parte-bonus .btn-seta:hover {
+    background-color: #4757e7;
+}
